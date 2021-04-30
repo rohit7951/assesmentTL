@@ -53,3 +53,9 @@ BE
 1. The bank would like end-to-end tests to be executed each time before a deployment
 2. The bank would like to test the security of their application to ensure sensitive data cannot be compromised
 3. The bank would like to devise a test strategy for introducing new features to the web app
+
+
+
+=====================================================
+
+Steps to execute the test
