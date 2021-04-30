@@ -58,9 +58,9 @@ BE
 
 =====================================================
 
-The API test is written in Maven using Rest Assured framework using BDD
+**The API test is written in Maven using Rest Assured framework using BDD**
 
-Steps to execute the test
+**Steps to execute the test**
 
 1) Clone the repository into your local 
     git clone https://github.com/rohit7951/assesmentTL.git
