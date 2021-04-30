@@ -1,0 +1,570 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-30T20:21:51.957Z",
+        "line": 13,
+        "name": "Verify which credit card the person is eligible for",
+        "description": "",
+        "id": "validating-credit-card-eligibility-check-api;verify-which-credit-card-the-person-is-eligible-for;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 804928000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I provide the \"Boris\" \"Boris.Boris@gmail.com\" and \"SE15JX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Boris\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Boris.Boris@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"SE15JX\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.i_provide_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 505221000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I call the EligibiltyCheckAPI with Post http request",
+            "match": {
+              "location": "stepDefinitions.Stepdefinition.i_call_the_post_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1547000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_api_call_is_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274475000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the \"eligibleCards\" in the response body is \"C1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eligibleCards\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"C1\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_in_the_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T20:21:53.593Z",
+        "line": 14,
+        "name": "Verify which credit card the person is eligible for",
+        "description": "",
+        "id": "validating-credit-card-eligibility-check-api;verify-which-credit-card-the-person-is-eligible-for;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2379000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I provide the \"Angela\" \"angela.angela@gmail.com\" and \"SE15JX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Angela\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"angela.angela@gmail.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"SE15JX\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.i_provide_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15537000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I call the EligibiltyCheckAPI with Post http request",
+            "match": {
+              "location": "stepDefinitions.Stepdefinition.i_call_the_post_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_api_call_is_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7613000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the \"eligibleCards\" in the response body is \"C1,C2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eligibleCards\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"C1,C2\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_in_the_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T20:21:53.622Z",
+        "line": 15,
+        "name": "Verify which credit card the person is eligible for",
+        "description": "",
+        "id": "validating-credit-card-eligibility-check-api;verify-which-credit-card-the-person-is-eligible-for;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2430000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I provide the \"Theresa\" \"theresa.theresa@gmail.com\" and \"SE15JX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Theresa\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"theresa.theresa@gmail.com\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"SE15JX\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.i_provide_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13093000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I call the EligibiltyCheckAPI with Post http request",
+            "match": {
+              "location": "stepDefinitions.Stepdefinition.i_call_the_post_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_api_call_is_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6181000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the \"eligibleCards\" in the response body is \"C2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eligibleCards\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"C2\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_in_the_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T20:21:53.647Z",
+        "line": 16,
+        "name": "Verify which credit card the person is eligible for",
+        "description": "",
+        "id": "validating-credit-card-eligibility-check-api;verify-which-credit-card-the-person-is-eligible-for;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2026000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I provide the \"abc\" \"theresa.theresa@gmail.com\" and \"SE15JX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"theresa.theresa@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"SE15JX\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.i_provide_the_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12837000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I call the EligibiltyCheckAPI with Post http request",
+            "match": {
+              "location": "stepDefinitions.Stepdefinition.i_call_the_post_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_api_call_is_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12445000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the \"eligibleCards\" in the response body is \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"eligibleCards\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_in_the_response_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T20:21:53.677Z",
+        "line": 29,
+        "name": "Verify error code for missing fields in the payload",
+        "description": "",
+        "id": "validating-credit-card-eligibility-check-api;verify-error-code-for-missing-fields-in-the-payload;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1583000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I provide \"\" \"Boris.Boris@gmail.com\" and \"SE15JX\" with empty fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"Boris.Boris@gmail.com\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"SE15JX\"",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.i_provide_and_with_empty_fields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14256000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I call the EligibiltyCheckAPI with Post http request",
+            "match": {
+              "location": "stepDefinitions.Stepdefinition.i_call_the_post_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the API call is failed with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_api_call_is_failed_with_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T20:21:53.696Z",
+        "line": 30,
+        "name": "Verify error code for missing fields in the payload",
+        "description": "",
+        "id": "validating-credit-card-eligibility-check-api;verify-error-code-for-missing-fields-in-the-payload;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2812000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I provide \"Angela\" \"\" and \"SE15JX\" with empty fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Angela\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"SE15JX\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.i_provide_and_with_empty_fields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13199000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I call the EligibiltyCheckAPI with Post http request",
+            "match": {
+              "location": "stepDefinitions.Stepdefinition.i_call_the_post_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the API call is failed with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_api_call_is_failed_with_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-30T20:21:53.716Z",
+        "line": 31,
+        "name": "Verify error code for missing fields in the payload",
+        "description": "",
+        "id": "validating-credit-card-eligibility-check-api;verify-error-code-for-missing-fields-in-the-payload;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1522000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I provide \"Theresa\" \"theresa.theresa@gmail.com\" and \"\" with empty fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Theresa\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"theresa.theresa@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.i_provide_and_with_empty_fields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11937000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I call the EligibiltyCheckAPI with Post http request",
+            "match": {
+              "location": "stepDefinitions.Stepdefinition.i_call_the_post_http_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the API call is failed with status code 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.Stepdefinition.the_api_call_is_failed_with_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating credit card eligibility check API",
+    "description": "",
+    "id": "validating-credit-card-eligibility-check-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/eligibilityCheck.feature",
+    "tags": []
+  }
+]
