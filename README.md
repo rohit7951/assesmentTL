@@ -58,4 +58,17 @@ BE
 
 =====================================================
 
+The API test is written in Maven using Rest Assured framework using BDD
+
 Steps to execute the test
+
+1) Clone the repository into your local 
+    git clone https://github.com/rohit7951/assesmentTL.git
+2) Open the terminal and navigate to the path
+    cd /server/cards/PostDeploymentTests/APIframework
+3) run mvn test verify
+
+One the build is success the report will be generated into the the following path, open the report in browser to view it.
+
+/server/cards/PostDeploymentTests/APIframework/target/cucumber-html-reports/report-feature_2590301403.html
+
